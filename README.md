@@ -191,7 +191,7 @@ def pie_chart(col):
 plt.title("Age Group")
 pie_chart(df['Age_group'])
 
-plt.title("Cholesterol Range")
+plt.title("Chol-range")
 pie_chart(df['Chol-range'])
 
 plt.title("Diastolic BP Rate")
