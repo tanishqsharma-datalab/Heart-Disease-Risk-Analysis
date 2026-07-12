@@ -12,9 +12,9 @@ A data-driven approach to predicting Coronary Heart Disease (CHD) risk over a 10
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Analysis](#exploratory-analysis)
 - [Risk-Factor Analysis](#risk-factor-analysis)
-- [Key Findings](key-findings)
+- [Key Findings](#key-findings)
 - [Conclusion](#conclusion)
-- [Future Improvements](future-improvements)
+- [Future Improvements](#future-improvements)
 
 ## Introduction
 Heart disease is one of the leading health concerns worldwide, and catching the warning signs early can make a real difference in preventing serious complications later on.
