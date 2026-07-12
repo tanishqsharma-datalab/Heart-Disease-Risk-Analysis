@@ -5,18 +5,24 @@ A data-driven approach to predicting Coronary Heart Disease (CHD) risk over a 10
 
 ## Contents
 - [Introduction](#introduction)
+- [Project Objective](#project-objective)
 - [Tools Used](#tools-used)
 - [Dataset](#dataset)
 - [Data Understanding](#data-understanding)
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Analysis](#exploratory-analysis)
 - [Risk-Factor Analysis](#risk-factor-analysis)
+- [Key Findings](key-findings)
 - [Conclusion](#conclusion)
+- [Future Improvements](future-improvements)
 
 ## Introduction
 Heart disease is one of the leading health concerns worldwide, and catching the warning signs early can make a real difference in preventing serious complications later on.
 In this project, I looked at clinical parameters like age, blood pressure, cholesterol, glucose levels, and smoking habits to see how well they predict a person's 10-year risk of developing coronary heart disease (CHD). The idea was to go through a full analysis workflow — cleaning messy real-world data, exploring it, and then digging into which factors actually matter most for heart disease risk.
 If you have any feedback or suggestions, feel free to open an issue — always happy to improve this.
+
+## Project Objective
+This project aims to analyze clinical and lifestyle factors associated with Coronary Heart Disease (CHD), identify the most influential risk factors through exploratory data analysis, and present meaningful insights that support early risk assessment.
 
 ## Tools Used
 - **Language:** Python
@@ -203,6 +209,18 @@ pie_chart(df['diabetes'])
 ```
 ![Risk Percentage Pie Charts](images/risk_percentage_pie_charts.png)
 
+## Key Findings
+- High systolic and diastolic blood pressure were strongly associated with increased CHD risk.
+- Middle-aged patients showed a higher proportion of heart disease cases.
+- Elevated cholesterol and glucose levels appeared more frequently among high-risk patients.
+- Smoking showed a noticeable relationship with coronary heart disease.
+- Multiple overlapping risk factors significantly increased overall CHD risk.
+
 ## Conclusion
-High blood pressure, high cholesterol, and elevated glucose levels turned out to be the biggest recurring risk factors, especially among middle-aged patients. Patients in the "high" or "dangerous" categories for these parameters showed noticeably higher CHD risk than those with normal readings, and a lot of patients had multiple risk factors overlapping at once — which compounds their overall risk further.
-Overall, this reinforces something pretty intuitive but important: regular screening and healthier lifestyle choices go a long way in reducing long-term heart disease risk.
+This analysis shows that blood pressure, cholesterol, glucose levels, and smoking habits play a significant role in long-term CHD risk. These findings highlight the importance of regular health screening and lifestyle modifications for early prevention of cardiovascular disease.
+
+## Future Improvements
+- Build Machine Learning models to predict CHD risk.
+- Compare multiple classification algorithms.
+- Optimize model performance through feature engineering and hyperparameter tuning.
+- Evaluate model performance using appropriate classification metrics.
