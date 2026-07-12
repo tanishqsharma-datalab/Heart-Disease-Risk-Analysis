@@ -117,6 +117,11 @@ df.loc[(df["totChol"]>=240), "Chol-range"] = "Dangerous"
 df.loc[(df["BMI"]>30), "BMI-range"] = "Obese"
 df.loc[(df["BMI"]<=30)&(df["BMI"]>=25), "BMI-range"] = "Over-weight"
 df.loc[(df["BMI"]<25), "BMI-range"] = "Normal"
+
+# Heart rate level
+df.loc[(df["heartRate"]<65), "heart_rate_level"] = "Low"
+df.loc[(df["heartRate"]>=65)&(df["heartRate"]<=100), "heart_rate_level"] = "Good"
+df.loc[(df["heartRate"]>100), "heart_rate_level"] = "high"
 ```
 ## Exploratory Analysis
 Before jumping into risk factors, I explored the overall shape of the data — distributions across age groups, smoking habits, and a few other variables — just to get a feel for the dataset.
