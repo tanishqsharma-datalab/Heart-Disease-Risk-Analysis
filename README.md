@@ -1,8 +1,6 @@
 # Heart-Disease-Risk-Analysis
 A data-driven approach to predicting Coronary Heart Disease (CHD) risk over a 10-year horizon, based on clinical and lifestyle data.
 
-![Banner](images/banner.png)
-
 ## Contents
 - [Introduction](#introduction)
 - [Project Objective](#project-objective)
